@@ -1,0 +1,9 @@
+var connect=require('connect'),
+    serveStatic=require('serve-static');
+
+var path = require('path');
+var server=connect();
+
+server.use(serveStatic(path.resolve(__dirname, '..', 'angularjs')));
+
+server.listen(5000);

@@ -1,0 +1,4 @@
+01 var express = require('express');
+02 var app = express();
+03 app.use('/', express.static('./'));
+04 app.listen(80);

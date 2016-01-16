@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"
+/>
+<style>
+  span{
+  background-color: #0066AA;
+  color: #FFFFFF;
+font-weight: bold;
+border-color: #C0C0C0;
+border:2px solid;
+border-radius:5px;
+padding: 3px;
+  }
+</style>
+
+
+  </head>
+  <body>
+    <span>Click Me</span>
+  </body>
+</html>

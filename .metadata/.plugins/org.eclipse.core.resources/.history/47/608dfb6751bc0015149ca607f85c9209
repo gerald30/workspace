@@ -1,0 +1,8 @@
+001 var http = require('http');
+002 var port = process.env.port || 8888;
+003 function httpRequest(request, response) {
+004 response.writeHead(200, {'Content-Type': 'text/plain'});
+005 response.write('Hello Web Designer\n');
+006 response.end();
+007 }
+008 http.createServer(httpRequest).listen(port);
